@@ -1,0 +1,43 @@
+22-Sep-2020 20:42:28.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.37
+22-Sep-2020 20:42:28.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 30 2020 20:09:49 UTC
+22-Sep-2020 20:42:28.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.37.0
+22-Sep-2020 20:42:28.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+22-Sep-2020 20:42:28.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.6
+22-Sep-2020 20:42:28.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+22-Sep-2020 20:42:28.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.0.4.jdk/Contents/Home
+22-Sep-2020 20:42:28.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.4+10-LTS
+22-Sep-2020 20:42:28.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Sep-2020 20:42:28.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/laymui/dev/apache-tomcat-9.0.37
+22-Sep-2020 20:42:28.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/laymui/dev/apache-tomcat-9.0.37
+22-Sep-2020 20:42:28.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+22-Sep-2020 20:42:28.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+22-Sep-2020 20:42:28.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Sep-2020 20:42:28.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/laymui/dev/apache-tomcat-9.0.37/conf/logging.properties
+22-Sep-2020 20:42:28.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Sep-2020 20:42:28.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Sep-2020 20:42:28.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Sep-2020 20:42:28.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+22-Sep-2020 20:42:28.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Sep-2020 20:42:28.889 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/laymui/dev/apache-tomcat-9.0.37
+22-Sep-2020 20:42:28.889 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/laymui/dev/apache-tomcat-9.0.37
+22-Sep-2020 20:42:28.889 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/laymui/dev/apache-tomcat-9.0.37/temp
+22-Sep-2020 20:42:28.889 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/laymui/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22-Sep-2020 20:42:29.162 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Sep-2020 20:42:29.194 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [517] milliseconds
+22-Sep-2020 20:42:29.241 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Sep-2020 20:42:29.241 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.37]
+22-Sep-2020 20:42:29.259 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/laymui/dev/apache-tomcat-9.0.37/webapps/webapp.war]
+22-Sep-2020 20:42:30.077 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Sep-2020 20:42:30.911 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/laymui/dev/apache-tomcat-9.0.37/webapps/webapp.war] has finished in [1,652] ms
+22-Sep-2020 20:42:30.912 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/laymui/dev/apache-tomcat-9.0.37/webapps/docs]
+22-Sep-2020 20:42:30.928 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/laymui/dev/apache-tomcat-9.0.37/webapps/docs] has finished in [16] ms
+22-Sep-2020 20:42:30.929 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/laymui/dev/apache-tomcat-9.0.37/webapps/manager]
+22-Sep-2020 20:42:30.954 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/laymui/dev/apache-tomcat-9.0.37/webapps/manager] has finished in [25] ms
+22-Sep-2020 20:42:30.955 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/laymui/dev/apache-tomcat-9.0.37/webapps/examples]
+22-Sep-2020 20:42:31.202 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/laymui/dev/apache-tomcat-9.0.37/webapps/examples] has finished in [247] ms
+22-Sep-2020 20:42:31.202 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/laymui/dev/apache-tomcat-9.0.37/webapps/ROOT]
+22-Sep-2020 20:42:31.218 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/laymui/dev/apache-tomcat-9.0.37/webapps/ROOT] has finished in [15] ms
+22-Sep-2020 20:42:31.218 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/laymui/dev/apache-tomcat-9.0.37/webapps/host-manager]
+22-Sep-2020 20:42:31.237 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/laymui/dev/apache-tomcat-9.0.37/webapps/host-manager] has finished in [19] ms
+22-Sep-2020 20:42:31.242 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Sep-2020 20:42:31.250 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2055] milliseconds
