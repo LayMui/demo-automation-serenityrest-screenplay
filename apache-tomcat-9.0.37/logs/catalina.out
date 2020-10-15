@@ -217,3 +217,115 @@ NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED -
 23-Sep-2020 15:22:26.976 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 23-Sep-2020 15:22:27.050 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
 23-Sep-2020 15:22:27.054 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Oct-2020 14:20:52.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.37
+15-Oct-2020 14:20:52.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 30 2020 20:09:49 UTC
+15-Oct-2020 14:20:52.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.37.0
+15-Oct-2020 14:20:52.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+15-Oct-2020 14:20:52.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.6
+15-Oct-2020 14:20:52.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+15-Oct-2020 14:20:52.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.0.4.jdk/Contents/Home
+15-Oct-2020 14:20:52.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.4+10-LTS
+15-Oct-2020 14:20:52.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Oct-2020 14:20:52.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37
+15-Oct-2020 14:20:52.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37
+15-Oct-2020 14:20:52.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Oct-2020 14:20:52.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+15-Oct-2020 14:20:52.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Oct-2020 14:20:52.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37/conf/logging.properties
+15-Oct-2020 14:20:52.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Oct-2020 14:20:52.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Oct-2020 14:20:52.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Oct-2020 14:20:52.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+15-Oct-2020 14:20:52.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Oct-2020 14:20:52.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37
+15-Oct-2020 14:20:52.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37
+15-Oct-2020 14:20:52.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37/temp
+15-Oct-2020 14:20:52.140 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/laymui/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+15-Oct-2020 14:20:52.399 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Oct-2020 14:20:52.430 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [500] milliseconds
+15-Oct-2020 14:20:52.475 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Oct-2020 14:20:52.476 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.37]
+15-Oct-2020 14:20:52.494 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37/webapps/webapp.war]
+15-Oct-2020 14:20:53.364 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Oct-2020 14:20:54.301 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37/webapps/webapp.war] has finished in [1,806] ms
+15-Oct-2020 14:20:54.302 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37/webapps/docs]
+15-Oct-2020 14:20:54.327 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37/webapps/docs] has finished in [26] ms
+15-Oct-2020 14:20:54.327 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37/webapps/manager]
+15-Oct-2020 14:20:54.358 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37/webapps/manager] has finished in [30] ms
+15-Oct-2020 14:20:54.358 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37/webapps/examples]
+15-Oct-2020 14:20:54.556 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37/webapps/examples] has finished in [198] ms
+15-Oct-2020 14:20:54.556 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37/webapps/ROOT]
+15-Oct-2020 14:20:54.571 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37/webapps/ROOT] has finished in [14] ms
+15-Oct-2020 14:20:54.571 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37/webapps/host-manager]
+15-Oct-2020 14:20:54.588 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37/webapps/host-manager] has finished in [17] ms
+15-Oct-2020 14:20:54.594 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Oct-2020 14:20:54.602 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2171] milliseconds
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Oct-2020 14:21:08.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.37
+15-Oct-2020 14:21:08.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 30 2020 20:09:49 UTC
+15-Oct-2020 14:21:08.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.37.0
+15-Oct-2020 14:21:08.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+15-Oct-2020 14:21:08.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.6
+15-Oct-2020 14:21:08.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+15-Oct-2020 14:21:08.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.0.4.jdk/Contents/Home
+15-Oct-2020 14:21:08.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.4+10-LTS
+15-Oct-2020 14:21:08.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Oct-2020 14:21:08.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37
+15-Oct-2020 14:21:08.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37
+15-Oct-2020 14:21:08.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Oct-2020 14:21:08.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+15-Oct-2020 14:21:08.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Oct-2020 14:21:08.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37/conf/logging.properties
+15-Oct-2020 14:21:08.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Oct-2020 14:21:08.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Oct-2020 14:21:08.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Oct-2020 14:21:08.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+15-Oct-2020 14:21:08.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Oct-2020 14:21:08.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37
+15-Oct-2020 14:21:08.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37
+15-Oct-2020 14:21:08.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37/temp
+15-Oct-2020 14:21:08.292 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/laymui/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+15-Oct-2020 14:21:08.581 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Oct-2020 14:21:08.604 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1042)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1057)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:690)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:712)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:461)
+		at java.base/sun.nio.ch.Net.bind(Net.java:453)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:228)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:211)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1141)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1154)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:74)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1039)
+		... 13 more
+15-Oct-2020 14:21:08.606 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [493] milliseconds
+15-Oct-2020 14:21:08.659 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Oct-2020 14:21:08.659 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.37]
+15-Oct-2020 14:21:08.674 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37/webapps/webapp.war]
+15-Oct-2020 14:21:08.689 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37/webapps/webapp] was found with a last modified time that did not match the associated WAR. It will be deleted.
+15-Oct-2020 14:21:09.963 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Oct-2020 14:21:11.108 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37/webapps/webapp.war] has finished in [2,433] ms
+15-Oct-2020 14:21:11.109 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37/webapps/docs]
+15-Oct-2020 14:21:11.134 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37/webapps/docs] has finished in [25] ms
+15-Oct-2020 14:21:11.135 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37/webapps/manager]
+15-Oct-2020 14:21:11.169 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37/webapps/manager] has finished in [34] ms
+15-Oct-2020 14:21:11.170 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37/webapps/examples]
