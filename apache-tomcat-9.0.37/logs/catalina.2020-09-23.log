@@ -1,4 +1,0 @@
-23-Sep-2020 15:22:26.955 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
-23-Sep-2020 15:22:26.976 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
-23-Sep-2020 15:22:27.050 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
-23-Sep-2020 15:22:27.054 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

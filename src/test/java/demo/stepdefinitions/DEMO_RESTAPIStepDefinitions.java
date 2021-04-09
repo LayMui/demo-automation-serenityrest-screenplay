@@ -1,6 +1,7 @@
 package demo.stepdefinitions;
 
 import demo.dto.MessageDto;
+import demo.tasks.UpdateMessage;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
@@ -59,12 +60,9 @@ public class DEMO_RESTAPIStepDefinitions {
         public void jamesUpdateAMessageWithAuthorAnd(String author, String message) {
 
                 MessageDto messageDto = new MessageDto(author, message);
+                james.attemptsTo(UpdateMessage.withAuthorAndMessage(messageDto));
 
-                james.attemptsTo(Put.to("/taqelah/messages/2").with(request -> {
-                        request.body(messageDto);
-                        request.header("Content-Type", "application/json");
-                        return request;
-                }));
+                
 
         }
 
@@ -153,7 +151,7 @@ public class DEMO_RESTAPIStepDefinitions {
 
     @Then("^he is able to create the new message$")
     public void heIsAbleToCreateTheNewMessage() {
-            // An example using Awaitility
+        // An example using Awaitility
         Awaitility.with().pollInSameThread().await().atMost(2, TimeUnit.MINUTES).untilAsserted(
                 () -> assertThat(SerenityRest.lastResponse().getStatusCode(), CoreMatchers.is(201)));
 
