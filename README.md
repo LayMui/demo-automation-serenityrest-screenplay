@@ -66,7 +66,7 @@ open index.html
 # To improve the quality of the code example unused variables and empty catch blocks.
 https://maven.apache.org/plugins/maven-pmd-plugin/usage.html
 
-# To add cucumber6 syntax (13 June 2021)
-Issues:
-[ERROR] Errors: 
-[ERROR]   CucumberTestSuite.initializationError » FeatureParser Failed to parse resource...
+# To do list:
+1. Add to the azure pipelines
+2. Add sonaqube:
+https://docs.microsoft.com/en-us/previous-versions/azure/devops/java/sonarqube?view=azure-devops
