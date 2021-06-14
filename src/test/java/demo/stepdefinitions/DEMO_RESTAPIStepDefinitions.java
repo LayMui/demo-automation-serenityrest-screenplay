@@ -61,9 +61,6 @@ public class DEMO_RESTAPIStepDefinitions {
 
                 MessageDto messageDto = new MessageDto(author, message);
                 james.attemptsTo(UpdateMessage.withAuthorAndMessage(messageDto));
-
-                
-
         }
 
         @Then("^the message get updated$")

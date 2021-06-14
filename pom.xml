@@ -14,7 +14,7 @@
         <serenity.version>2.2.9</serenity.version>
         <serenity.rest.version>2.2.3</serenity.rest.version>
         <serenity.maven.version>2.2.9</serenity.maven.version>
-        <serenity.cucumber.version>2.2.5</serenity.cucumber.version>
+        <serenity.cucumber.version>2.2.6</serenity.cucumber.version>
         <encoding>UTF-8</encoding>
         <tags></tags>
         <parallel.tests>4</parallel.tests>
@@ -144,6 +144,11 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-pmd-plugin</artifactId>
+                <version>3.14.0</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M4</version>
                 <configuration>
@@ -211,4 +216,13 @@
             </plugin>
         </plugins>
     </build>
+    <reporting>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-pmd-plugin</artifactId>
+            <version>3.14.0</version>
+          </plugin>
+        </plugins>
+      </reporting>
 </project>
