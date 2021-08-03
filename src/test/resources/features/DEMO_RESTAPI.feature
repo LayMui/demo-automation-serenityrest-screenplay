@@ -16,6 +16,7 @@ Feature: DEMO_RESTAPI
     Examples:
       | author | message | hiptest-uid |
       | J.R.R. Tolkien | The Lord of the Rings | uid b5923c4e-2402-4f26-8fa0-4d559821cd6d |
+      | CS Lewis| The Chronicles of Narnia| uid b5923c4e-2402-4f26-8fa0-4d559821cd6d |
 
       @test
   Scenario: get a single message (uid 4a386f39-a333-4b30-81da-ae1be974db69)
