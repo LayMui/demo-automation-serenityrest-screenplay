@@ -123,7 +123,7 @@ case $TASK in
       ;;
     run_tests)
        # Reset
-       cp webapp.war ~/dev/apache-tomcat-9.0.37/webapps
+       cp webapp.war ~/dev/apache-tomcat-9.0.48/webapps
         mvn -U -DskipTests=true clean install
         mvn -U clean verify -Dcucumber.filter.tags=@test -Dserenity.project.name="Serenity-Rest" $ENV_PARAMETER_REST serenity:reports -Dserenity.reports=single-page-html
         ;;

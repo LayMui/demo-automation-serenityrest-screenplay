@@ -6,12 +6,12 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-import org.springframework.validation.annotation.Validated;
+//import org.springframework.validation.annotation.Validated;
 
 @Getter
 @Setter
 @ToString
-@Validated
+//@Validated
 @Builder
 public class MessageDto {
     private String author;
