@@ -1,11 +1,12 @@
 #!/bin/bash
+REST_TAG="@test"
 
 display_usage() {
-  echo "This script must be run with at least 1 arguments"
- 	echo -e "Usage:" $0 "[sync|update_features|run_tests|push_results] [local|dev|staging|prod]"
+  echo "This script must be run with at least 1 arguments if task is run_tests"
+ 	echo -e "Usage:" $0 "[sync|update_features|run_tests|push_results] [local|dev|staging|prod] "
 	}
 
-if [  $# -lt 1 ]
+if [  $# -lt 2 ]
 then
 		display_usage
 		exit 1
@@ -13,18 +14,6 @@ fi
 
 TASK=$1
 ENV=$2
-
-case $ENV in
-    dev)
-      ENV_PARAMETER_REST="-Drestapi.baseurl=http://localhost:8080/webapp"
-      ;;
-    prod)
-      ENV_PARAMETER_REST="-Drestapi.baseurl=http://localhost:8080/webapp"
-      ;;
-    *)
-      ENV_PARAMETER_REST="-Drestapi.baseurl=http://localhost:8080/webapp"
-      ;;
-esac
 
 set_variables() {
 
@@ -120,13 +109,12 @@ case $TASK in
           docker run --rm \
           -v ${PWD}:/app hiptest/hiptest-publisher \
           --config-file hiptest-publisher.conf --token=$PROJECT_TOKEN --test-run-id $TEST_RUN_ID --only=features
-      ;;
-    run_tests)
-       # Reset
-       cp webapp.war ~/dev/apache-tomcat-9.0.37/webapps
-        mvn -U -DskipTests=true clean install
-        mvn -U clean verify -Dcucumber.filter.tags=@test -Dserenity.project.name="Serenity-Rest" $ENV_PARAMETER_REST serenity:reports -Dserenity.reports=single-page-html
         ;;
+    run_tests)
+        mvn -U -DskipTests=true clean install
+        #mvn -U clean verify -Dcucumber.filter.tags=$REST_TAG -Denvironment=$ENV -DuseProxy=true
+         mvn -U clean verify -Dcucumber.filter.tags=$REST_TAG -Denvironment=$ENV
+      ;;
     push_results)
       echo "Push Test Result back to Cucumber Studio"
       docker run --rm \
@@ -138,7 +126,3 @@ case $TASK in
       exit 1
       ;;
 esac
-
-
-
-
