@@ -423,6 +423,7 @@ NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED -
 13-Jun-2021 15:54:19.600 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/laymui/dev/taiger/demo-serenity-rest-screenplay/apache-tomcat-9.0.37/webapps/host-manager] has finished in [18] ms
 13-Jun-2021 15:54:19.605 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
 13-Jun-2021 15:54:19.612 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2173] milliseconds
+<<<<<<< HEAD
 NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
 26-Jun-2021 19:16:20.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.37
 26-Jun-2021 19:16:20.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 30 2020 20:09:49 UTC
@@ -610,3 +611,5 @@ NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED -
 09-Sep-2021 14:13:48.373 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 09-Sep-2021 14:13:48.401 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
 09-Sep-2021 14:13:48.401 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+=======
+>>>>>>> parent of 4e03455... Initial Commit
