@@ -111,6 +111,9 @@ case $TASK in
           --config-file hiptest-publisher.conf --token=$PROJECT_TOKEN --test-run-id $TEST_RUN_ID --only=features
         ;;
     run_tests)
+
+       # Reset
+       cp webapp.war ~/dev/apache-tomcat-9.0.48/webapps
         mvn -U -DskipTests=true clean install
         #mvn -U clean verify -Dcucumber.filter.tags=$REST_TAG -Denvironment=$ENV -DuseProxy=true
          mvn -U clean verify -Dcucumber.filter.tags=$REST_TAG -Denvironment=$ENV

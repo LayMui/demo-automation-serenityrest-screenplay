@@ -70,3 +70,11 @@ https://maven.apache.org/plugins/maven-pmd-plugin/usage.html
 1. Add to the azure pipelines
 2. Add sonaqube:
 https://docs.microsoft.com/en-us/previous-versions/azure/devops/java/sonarqube?view=azure-devops
+
+https://docs.sonarqube.org/latest/analysis/azuredevops-integration/
+
+1. Installing your extension
+From Visual Studio Marketplace, install the SonarQube extension
+https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarqube
+
+2. Adding a new SonarQube Service Endpoint
