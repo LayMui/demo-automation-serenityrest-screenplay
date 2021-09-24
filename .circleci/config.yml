@@ -21,6 +21,8 @@ jobs:
             - v1-dependencies-
 
       # run tests!
+
+      - run:  ./startwebserver.sh
       - run:  mvn -U -DskipTests=true clean install
 
       - run:  mvn -U clean verify -Dcucumber.filter.tags=@test -Dserenity.project.name="Serenity-Rest" -Drestapi.baseurl=http://localhost:8080/webapp
@@ -39,11 +41,11 @@ jobs:
           to: 's3://serenitybdd'
 
 
-      - slack/status:
-          fail_only: false
-          mentions: 'LayMui'
-          failure_message: "see latest report: http://serenitybdd.s3-website-ap-southeast-1.amazonaws.com/index.html"
-          webhook: $SLACK
+      # - slack/status:
+      #     fail_only: false
+      #     mentions: 'LayMui'
+      #     failure_message: "see latest report: http://serenitybdd.s3-website-ap-southeast-1.amazonaws.com/index.html"
+      #     webhook: $SLACK
 
 
 
