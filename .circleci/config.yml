@@ -36,13 +36,13 @@ jobs:
       - aws-s3/copy:
           arguments: '--recursive --acl public-read-write'
           from: target/site/serenity
-          to: 's3://webinar-serenity-report'
+          to: 's3://serenitybdd'
 
 
       - slack/status:
           fail_only: false
           mentions: 'LayMui'
-          failure_message: "see latest report: https://webinar-serenity-report.s3.eu-west-1.amazonaws.com/index.html"
+          failure_message: "see latest report: http://serenitybdd.s3-website-ap-southeast-1.amazonaws.com/index.html"
           webhook: $SLACK
 
 
