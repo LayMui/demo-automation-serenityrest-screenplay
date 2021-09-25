@@ -22,14 +22,18 @@ jobs:
 
       # run tests!
 
-      - run:  ./startwebserver.sh
+      - run:  
+          command: ./startwebserver.sh
+          background: true
 
-      - run: 
-          name: wait for localhost to load
-          command: 'yarn wait-on http://localhost:8080'
-
+      - run:
+          shell: /bin/sh
+          command: |
+              wget --retry-connrefused --waitretry=1 --read-timeout=20 --timeout=15 -t 10 http://localhost:8080
+     
       - run:  mvn -U -DskipTests=true clean install
 
+      
       - run:  mvn -U clean verify -Dcucumber.filter.tags=@test -Dserenity.project.name="Serenity-Rest" -Drestapi.baseurl=http://localhost:8080/webapp
 
       - save_cache:
