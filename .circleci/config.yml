@@ -29,8 +29,8 @@ jobs:
 
       - run:  ./startwebserver.sh
 
-      - run: sleep 100
-      
+      - run:  sleep 500
+
       - run:  mvn -U -DskipTests=true clean install
 
       - run:  mvn -U clean verify -Dcucumber.filter.tags=@test -Dserenity.project.name="Serenity-Rest" -Drestapi.baseurl=http://localhost:8080/webapp
