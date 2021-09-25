@@ -24,7 +24,9 @@ jobs:
 
       - run:  ./startwebserver.sh
 
-      - run:  sleep 500
+      - run: 
+          name: wait for localhost to load
+          command: 'yarn wait-on http://localhost:8080'
 
       - run:  mvn -U -DskipTests=true clean install
 
